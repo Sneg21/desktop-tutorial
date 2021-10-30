@@ -4,7 +4,7 @@
  ​import​ ​sys 
   
   
- ​@​borg​.​on​(​events​.​NewMessage​(​pattern​=​r"\.pol2"​, ​outgoing​=​True​)) 
+ ​@​borg​.​on​(​events​.​NewMessage​(​pattern​=​r"\.pol"​, ​outgoing​=​True​)) 
  ​async​ ​def​ ​_​(​event​): 
  ​    ​if​ ​event​.​fwd_from​: 
  ​        ​return 
